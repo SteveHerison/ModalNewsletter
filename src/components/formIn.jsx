@@ -43,7 +43,7 @@ const FormIn = ({ onSuccess }) => {
         <button
           className="p-3 mt-5 rounded-xl bg-blue-950 text-white"
           type="submit">
-          Submit
+          Subscribe to monthly newsletter
         </button>
       </form>
     </div>
