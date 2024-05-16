@@ -2,7 +2,7 @@ import IconSucesso from "../../assets/images/icon-success.svg";
 
 const ModalSucesso = ({ email }) => {
   return (
-    <div className="h-full w-full justify-center items-center flex">
+    <div className="md:h-full md:w-full w-screen h-screen justify-center items-center flex">
       <div className="p-6 bg-white w-96  rounded-xl flex flex-col gap-5">
         <img src={IconSucesso} alt="" className="w-16" />
         <h1 className="text-5xl">Thanks for subscribing!</h1>

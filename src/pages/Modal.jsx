@@ -17,9 +17,9 @@ const Modal = () => {
     }, 2000);
   };
   return (
-    <div className="h-full w-full justify-center items-center flex">
+    <div className="md:h-full md:w-full w-screen h-screen justify-center items-center flex">
       {!showSuccessModal && (
-        <section className="bg-white md:p-4 flex flex-col-reverse md:flex-row gap-5 md:rounded-xl shadow-xl">
+        <section className="bg-white md:p-4 pb-2 flex flex-col-reverse md:flex-row gap-5 md:rounded-xl md:shadow-xl justify-between h-full md:h-[40rem]">
           <div className=" flex flex-col justify-center gap-10 md:w-96 px-3">
             <div>
               <h1 className="text-5xl text-start pb-4">Stay updated!</h1>
