@@ -2,7 +2,7 @@ import Modal from "./Modal";
 
 const App = () => {
   return (
-    <div className="h-screen w-screen bg-gray-700 justify-center flex items-center ">
+    <div className="h-full md:h-screen w-full md:w-screen bg-gray-700 ">
       <Modal />
     </div>
   );

@@ -1,6 +1,6 @@
-import IconSucesso from "../assets/images/icon-success.svg";
+import IconSucesso from "../../assets/images/icon-success.svg";
 
-const ModalSucesso = ({ email, setShowModal }) => {
+const ModalSucesso = ({ email }) => {
   return (
     <div className="h-full w-full justify-center items-center flex">
       <div className="p-6 bg-white w-96  rounded-xl flex flex-col gap-5">
@@ -10,9 +10,7 @@ const ModalSucesso = ({ email, setShowModal }) => {
           A confirmation email has been sent to <strong>{email}</strong>. Please
           open it and click the button inside to confirm your subscription.
         </p>
-        <button
-          className="bg-blue-950 p-3 rounded-xl text-white"
-          onClick={() => setShowModal(true)}>
+        <button className="bg-blue-950 p-3 rounded-xl text-white">
           Dismiss message
         </button>
       </div>
